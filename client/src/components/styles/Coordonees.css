@@ -1,0 +1,70 @@
+.contact {
+	display: flex;
+	text-decoration: none;
+	color: #fff;
+	opacity: 0;
+	animation: ani2 0.5s ease-out 4s forwards;
+	text-align: center
+}
+
+.mailnumsocial{
+		margin: 0 auto; /* this for center div */
+		text-align: center;
+		padding-top: 100px;
+		font-size: 18px;
+	}
+
+	.mail1{
+		padding-right: 150px;
+	}
+
+	.mail2{
+		padding-left: 150px;
+	}
+
+  .mail1 a{
+	color: #fff;
+  }
+  .mail2 a{
+	color: #fff;
+  }
+
+
+
+  @keyframes ani2 {
+	0%
+	{
+	  margin-top: 60px;
+	}
+	100%
+	{
+	  opacity: 1;
+	}
+  }
+
+@media screen and (max-width: 768px) {
+	.mail1{
+		padding-right: 50px;
+	}
+	.mail2{
+		padding-left: 50px;
+	}
+	.mailnumsocial{
+		font-size: 15px;
+		padding-top: 150px;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	.mail1{
+		padding-right: 40px;
+	}
+	.mail2{
+		padding-left: 40px;
+	}
+	.mailnumsocial{
+		padding-top: 80px;
+	}
+}
+
+

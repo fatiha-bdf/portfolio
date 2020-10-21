@@ -1,0 +1,56 @@
+.competences {
+	background-color: #242424;
+	opacity: 0.7;
+	/* min-height: 50vh; */
+	height: 50%;
+	width: 100%;
+	padding: 20px;
+}
+
+.titre {
+	color: #fff;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.bodyy{
+	margin: 0 auto; /* this for center div */
+	max-width: 1400px;
+	display: flex;
+	margin-top: 2%
+}
+
+.technique1{
+	width: 50%;
+	margin-right: 5%;
+}
+
+.technique2{
+	width: 50%;
+}
+
+.progress{
+	margin: 2%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.bodyy {
+		text-align: center;
+		display: block;
+		}
+}
+
+@media screen and (max-width: 768px) {
+	.bodyy {
+		text-align: center;
+		display: block;
+	}
+	.technique1 {
+	width: 100%;
+	}
+	.technique2 {
+		width: 100%;
+	}
+}

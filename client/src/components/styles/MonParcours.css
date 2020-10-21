@@ -1,0 +1,102 @@
+.parcours {
+	background-color: #fff;
+	opacity: 0.7;
+	min-height: 50vh;
+	width: 100%;
+	padding: 20px;
+	position: relative;
+}
+
+.all{
+	z-index: -1;
+	margin-top: 2%;
+	display: flex;
+	max-width: 1400px;
+	margin: 0 auto; /* this for center div */
+}
+
+.body-parcours{
+	display: block;
+	width: 50%;
+}
+
+.part{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 30%;
+	display: block;
+	margin: 1%;
+	padding: 2%;
+}
+
+.parcours h3 {
+	color: #242424;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 25px;
+}
+
+.parcours h1 {
+	color: #242424;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.parcours p {
+	color: #242424;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+}
+
+
+
+.details{
+	z-index: 2;
+	display: block;
+	margin-top: 2%;
+	/* height: 300px; */
+	width: 35%;
+	left: 30%;
+	top: 15%;
+	background-color: #fff;
+	position: absolute;
+	padding: 15px;
+}
+
+.details p{
+	color: black;
+	text-align: left
+}
+
+
+@media screen and (max-width: 768px) {
+	.all {
+		display: block;
+		width: 100%;
+	}
+	.body-parcours {
+		display: block;
+		width: 100%;
+	}
+	.details{
+	width: 80%;
+	left: 10%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.all {
+		display: block;
+		width: 100%;
+	}
+	.body-parcours {
+		display: block;
+		width: 100%;
+	}
+	.details{
+	width: 70%;
+	left: 10%;
+	}
+	
+}

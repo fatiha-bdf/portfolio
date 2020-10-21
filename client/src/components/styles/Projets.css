@@ -1,0 +1,113 @@
+.carousel-control-prev {
+	margin-left: -10%;
+  }
+
+.carousel-control-next {
+	margin-right: -10%;
+  }
+
+.projets {
+	background: rgba(24,24,24,0.7);
+	min-height: 50vh;
+	width: 100%;
+	padding: 20px;
+}
+
+.title {
+	color: #fff;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+
+.title h3{
+	margin-top: 25px;
+	font-size: 20px;
+}
+
+.body {
+	display: flex;
+	max-width: 1400px;
+	margin: 0 auto; /* this for center div */
+}
+
+.caroussel {
+	width: 50%;
+	padding: 2%;
+}
+
+.record{
+	max-width: 100%;
+}
+
+.caroussel:hover {
+	width: 130%;
+}
+
+.caroussel h3{
+	color: #242424;
+}
+
+.caroussel p{
+	color: orange;
+}
+
+figcaption {
+	font-family: 'Courier New', Courier, monospace;
+	color: #fff;
+	padding: 3%;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.ref {
+	color: #fff;
+	width: 70%;
+	border-Radius: 100;
+	padding: 3%;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+@media screen and (max-width: 1168px) {
+	.body {
+		display: block;
+		}
+	.caroussel {
+		width: 80%;
+		margin: 0 auto; /* this for center div */
+	}
+	.ref {
+		padding-top: 0;
+		width: 90%;
+		margin: 0 auto; /* this for center div */
+	}
+	.caroussel:hover {
+	width: 80%;
+}
+}
+@media screen and (max-width: 768px) {
+	.body {
+		/* text-align: center; */
+		display: block;
+		}
+	.caroussel {
+		width: 100%;
+	}
+	.caroussel:hover {
+		width: 100%;
+	}
+	.ref {
+		padding-top: 0;
+		width: 100%;
+	}
+}
+
+
+p{
+	font-family: 'Courier New', Courier, monospace;
+}
+
+

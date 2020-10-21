@@ -1,0 +1,16 @@
+.footer-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	padding-top: 1%;
+  align-items: center;
+  color: #fff;
+  min-height: 3vh;
+}
+
+.website-rights {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
